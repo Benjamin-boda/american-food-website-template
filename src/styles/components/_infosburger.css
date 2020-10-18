@@ -1,0 +1,101 @@
+.infos-burger_container {
+    margin: 0 auto;
+    max-width: 95rem;
+}
+
+.infos-burger_text {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.infos-burger_title {
+    background-color: rgb(255, 193, 53);
+    color: rgb(66, 32, 11);
+    font-family: "BebasNeueBold";
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+  
+.infos-burger_subtitle {
+    font-family: "AlfaSlabOne";
+    font-size: 5rem;
+    color: rgb(66, 32, 11);
+    text-transform: uppercase;
+}
+
+.infos-burger_para {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    color: rgb(66, 32, 11);
+}
+
+.infos-burger_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.infos-burger_menu_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infos-burger_image {
+    height: 25rem;
+    width: 25rem;
+}
+
+.infos-burger_menu_title {
+    color: rgb(66, 32, 11);
+    font-family: "BebasNeueBold";
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+  
+.infos-burger_menu_text { 
+    color: rgb(66, 32, 11);
+    font-family: "Montserrat";
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+  
+
+.infos-burger_menu_button {
+    background-color: rgb(223, 28, 28);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "AlfaSlabOne";
+    font-size: 1.5rem;
+    margin:0 auto;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.infos-burger_menu_button_text {
+    background-color: rgb(223, 28, 28);
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 45rem) {
+    .infos-burger_menu {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .infos-burger_image {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .infos-burger_menu_item {
+        margin-top: 3rem;
+    }
+}
+  

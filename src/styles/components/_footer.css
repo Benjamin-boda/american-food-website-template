@@ -1,0 +1,77 @@
+footer {
+    background: no-repeat;
+    background-image: url("../../../public/images/footer_background.png");
+    height: 100%;
+    margin: 0rem auto 2rem auto;
+    width: 95%;
+}
+
+.footer_container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footer_text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    height: 8rem;
+    margin: 2rem 0 1rem 0;
+    width: 30rem;
+}
+
+.footer_para {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+}
+
+.footer_adress_mail_image {
+    height: 2rem;
+    margin-right: 1rem;
+    width: 2rem;
+}
+
+.footer_adress_mail {
+    color: white;
+    font-family: "BebasNeueBold";
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.footer_end {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.footer_right {
+    color: white;
+    font-family: "BebasNeueRegular";
+    font-size: 1.5rem;
+}
+
+.footer_button {
+    background: transparent;
+    border: none;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 45rem) {
+    footer {
+        margin: 2rem auto 2rem auto;
+    }
+
+    .footer_adress_mail_image {
+        display: none;
+    }
+
+    .footer_right {
+        font-size: 1rem;
+    }
+}

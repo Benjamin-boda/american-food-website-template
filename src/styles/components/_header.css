@@ -1,0 +1,166 @@
+header {
+  background-color: rgb(255, 193, 53);
+  color: rgb(66, 32, 11);
+}
+
+.header_content {
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.header_logo {
+  height: 6rem;
+  width: 20rem;
+}
+
+.header_link {
+  font-family: "BebasNeueBold";
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0;
+  text-transform: uppercase;
+}
+
+.header_link_element {
+  padding-right: 2rem;
+}
+
+.header_slogan {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_food {
+  margin-top: 8rem;
+}
+
+.header_burger {
+  bottom: 5rem;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.header_fries {
+  max-width: 25rem;
+  height: auto;
+  position: relative;
+  right: 10rem;
+  width: 100%;
+  z-index: 0;
+}
+
+.header_coke {
+  width: 100%;
+  max-width: 12rem;
+  height: auto;
+  position: relative;
+  right: 3rem;
+  z-index: 0;
+}
+
+.header_price {
+  border-radius: 50%;
+  background-color: rgb(223, 28, 28);
+  bottom: 10rem;
+  color: white;
+  font-family: "BebasNeueBold";
+  font-size: 2rem;
+  height: 10rem;
+  line-height: 10rem;
+  position: relative;
+  text-align: center;
+  right: 5rem;
+  width: 10rem;
+  z-index: 2;
+}
+
+.header_price_dotted {
+  border: white dashed;
+  border-radius: 50%;
+  padding: 3rem 2rem;
+}
+
+.header_text_general {
+  margin:0;
+}
+
+.header_text {
+  border-width: 2px;
+  border-color: rgb(66, 32, 11);
+  border-style: dashed;
+  font-family: "BebasNeueRegular";
+  font-size: 2rem;
+  color: rgb(66, 32, 11);
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.header_title {
+  color: rgb(66, 32, 11);
+  font-family: "AlfaSlabOne";
+  font-size: 8rem;
+  text-shadow: 0.4rem 0.4rem 0rem white;
+  text-transform: uppercase;
+}
+
+.header_subtitle {
+  color: rgb(66, 32, 11);
+  font-family: "AlfaSlabOne";
+  font-size: 4rem;
+  text-shadow: 0.2rem 0.2rem 0rem white;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 45rem) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header_burger {
+    display: none;
+  }
+
+  .header_coke {
+    display: none;
+  }
+
+  .header_fries {
+    display: none;
+  }
+
+  .header_price {
+    display: none;
+  }
+
+  .header_price_dotted {
+    display: none;
+  }
+
+  .header_link {
+    margin-top: 2rem;
+  }
+
+  .header_text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .header_title {
+    font-size: 6rem;
+  }
+
+  .header_subtitle {
+    font-size: 3rem;
+  }
+}

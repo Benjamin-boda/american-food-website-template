@@ -1,0 +1,65 @@
+.upcoming-events {
+    margin: 5rem auto;
+    max-width: 90rem;
+}
+
+.upcoming-events_content {
+    background-color: white;
+    box-shadow: 1.5rem 2.5rem 4rem 0rem rgba(0, 0, 0, 0.17);
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.upcoming-events_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-events_title {
+    color: rgb(59, 59, 59);
+    font-family: "BebasNeueBold";
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.upcoming-events_subtitle {
+    color: rgb(66, 32, 11);
+    font-family: "AlfaSlabOne";
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    width: 50rem;
+}
+
+.upcoming-events_para {
+    color: rgb(59, 59, 59);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    width: 30rem;
+}
+  
+.upcoming-events_image {
+    height: 25rem;
+    width: 40rem;
+}
+
+@media only screen and (max-width: 45rem) {
+    .upcoming-events_content {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .upcoming-events_image {
+        height: 20rem;
+        margin-top: 2rem;
+        max-width: 30rem;
+    }
+
+    .upcoming-events_text {
+        text-align: center;
+    }
+  }
+
+  

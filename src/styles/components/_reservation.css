@@ -1,0 +1,96 @@
+.reservation {
+    margin: 0 auto;
+    max-width: 90rem;
+}
+
+.reservation_title {
+    color: rgb(66, 32, 11);
+    font-family: "BebasNeueBold";
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reservation_subtitle {
+    color: rgb(66, 32, 11);
+    font-family: "AlfaSlabOne";
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.reservation_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    z-index: 10;
+}
+
+.reservation_input {
+    background-color:  rgba(255, 176, 66, 0);
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    color: rgb(59, 59, 59);
+    font-family: "BebasNeueRegular";
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 4rem;
+    width: 30rem;
+}
+
+.reservation_button {
+    background-color: rgb(223, 28, 28);
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-family: "AlfaSlabOne";
+    font-size: 1.5rem;
+    height: 4rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 30rem;
+}
+
+.image_top_burger {
+    position: absolute;
+    height: 22rem;
+    left: 0rem;
+    top: 180rem;
+    width: 20rem;
+    z-index: 0;    
+}
+
+.image_plate {
+    height: 40rem;
+    position: absolute;
+    right: 0rem;
+    top: 190rem;
+    width: 25rem;
+    z-index: 0;
+}
+
+.image_bottle {
+    bottom: 10rem;
+    height: 25rem;
+    position: relative;
+    right: 5rem;
+    width: 15rem;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 45rem) {
+    .image_top_burger {
+        display:none;
+    }
+    .image_bottle {
+        display:none;
+    }
+    .image_plate {
+        display:none;
+    }
+}
